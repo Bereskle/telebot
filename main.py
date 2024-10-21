@@ -29,7 +29,7 @@ dir = {
     'img_dir': './Image',
     'video_dir': './video'
 }
-img = os.listdir(dir['img_dir'])
+#img = os.listdir(dir['img_dir'])
 Token = 'some_token'
 bot = Bot(token = Token)
 dp = Dispatcher()
