@@ -30,7 +30,7 @@ dir = {
     'video_dir': './video'
 }
 img = os.listdir(dir['img_dir'])
-Token = '7946688476:AAEzlp8n-TPaa8jYIZGytb3_5yOYrNtimew'
+Token = 'some_token'
 bot = Bot(token = Token)
 dp = Dispatcher()
 login =''
