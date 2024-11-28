@@ -8,18 +8,6 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 
-### Мой код ###
-#import login as lp
-
-#############################################
-#  login и добавление к бд                                           READY
-#  Возможность добавления материалов к базе                          READY
-#  Добавить систему хэштегов
-#  Добавить интерфейс для добавления фото и видео через тг чат
-#  Попробовать реализовать рекомендации
-
-#############################################
-
 class RegisterFSM(StatesGroup): #Хз что это, но оно работает
     nickname_input = State()
     pass_input = State()
